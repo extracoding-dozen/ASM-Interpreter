@@ -1,0 +1,17 @@
+section .data 
+    var1 db 10 
+    var2 db 20.8 
+    var3 db 30 
+    Fuck_CPP db 666 
+    var4 db 78 
+
+_start: 
+    mov AX, var1 
+    mov BX, var2 
+    mov CX, 40.8 
+    add CX, BX 
+    mult CX, AX 
+    mult var1, 30 
+    add var2, 50 
+    add var3, 90 
+    mult var2, var3 
